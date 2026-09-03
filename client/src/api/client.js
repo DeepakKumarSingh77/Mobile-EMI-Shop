@@ -1,4 +1,4 @@
-const BASE_URL ="https://server-three-xi-78.vercel.app/";
+const BASE_URL ="https://server-three-xi-78.vercel.app/api";
  
 async function request(path, options = {}) {
   const res = await fetch(`${BASE_URL}${path}`, {
