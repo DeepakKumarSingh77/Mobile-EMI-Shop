@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://server-three-xi-78.vercel.app/";
+const BASE_URL ="https://server-three-xi-78.vercel.app/";
  
 async function request(path, options = {}) {
   const res = await fetch(`${BASE_URL}${path}`, {
